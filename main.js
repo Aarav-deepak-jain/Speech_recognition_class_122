@@ -42,7 +42,7 @@ function setup () {
 function draw() {
     if(draw_circle == "set")
     {
-        radius = Math.floor(Math.random * 100);
+        radius = Math.floor(Math.random() * 100);
         circle(x,y,radius);
         document.getElementById("status").innerHTML = "Circle is drawn";
         draw_circle = "";
